@@ -19,10 +19,10 @@ var articles={
             <p>Article Two will be served here.`
     },
     'article-three':{
-        title:'Article Two | Arpit Chikara',
-        heading:'Article Two',
-        content:`<p>This is the additional page that the server will server now -ARTICLE TWO</p>
-            <p>Article Two will be served here.`
+        title:'Article Three | Arpit Chikara',
+        heading:'Article Three',
+        content:`<p>This is the additional page that the server will server now -ARTICLE THREE</p>
+            <p>Article Three will be served here.`
     }
 };
 function createTemplate(data){
