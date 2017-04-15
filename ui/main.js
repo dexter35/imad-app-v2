@@ -7,7 +7,7 @@ btn.onclick=function(){
   
   //capture the response and store it in a variable
   request.onreadystatechange=function(){
-    if(request.readyState===XMLHttpRequest,DONE){
+    if(request.readyState===XMLHttpRequest.DONE){
         //take some action
         if(request.status===200){       //request successfully competed;200
             var counter=request.responseText;       //extract value from request
