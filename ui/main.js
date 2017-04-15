@@ -1,16 +1,15 @@
-console.log('Loaded!');
 
-//var x=document.getElementById('main-text');
-//x.innerHTML="new value";
-
-var image=document.getElementById('img');
-var marginLeft=0;
-function moveRight(){
+var btn=document.getElementById("counter");
+btn.onclick=function(){
+  //make a request
+  
+  
+  //capture the response and store it in a variable
+  
+  
+  //render the variable in the correct span
+  counter=counter+1;
+  var span=document.getElementById("count");
+  span.innerHTML=counter.toString();
     
-    marginLeft=marginLeft+1;
-    image.style.marginLeft=marginLeft+'px';
-}
-image.onclick=function(){
-    var interval=setInterval(moveRight,25);
- // image.style.marginLeft='100px';  
 };
