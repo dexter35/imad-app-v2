@@ -25,3 +25,21 @@ btn.onclick=function(){
   //render the variable in the correct span
   
 };
+
+//submit name
+var nameInput=document.getElementById('name');
+var name=nameInput.vale;
+var submit=document.getElementById('submit_btn');
+submit.onclick=function(){
+    //make a request ot hte server and send the name
+    
+    //capture a kist of names and render it as a list
+    var names=['name1','name2','name3'];
+    var list='';
+    for(var i=o;i<names.length;i++){
+        list+='<li>'+names[i]+'<li>';
+    }
+    var ul=document.getElementById('nameslist');
+    ul.innerHTML=list;
+    
+};
