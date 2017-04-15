@@ -1,7 +1,7 @@
 console.log('Loaded!');
 
-var x=document.getElementById('main-text');
-x.innerHTML="new value";
+//var x=document.getElementById('main-text');
+//x.innerHTML="new value";
 
 var image=document.getElementById('img');
 var marginLeft=0;
