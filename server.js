@@ -86,7 +86,7 @@ app.get('/submit-name/:name',function(req,res){
     //get names from the request
     var name=req.params.name;
     
-    names.push(names);
+    names.push(name);
     ///JSON:JavaScript Object Notation bcoz we cannot send objects or string of objects as response. only bytes or files
     res.send(JSON.stringify(names));
 });
