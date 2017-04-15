@@ -25,8 +25,7 @@ btn.onclick=function(){
   //render the variable in the correct span
 };
 //submit name
-var nameInput=document.getElementById('name');
-var name=nameInput.value;
+
 var submit=document.getElementById('submit_btn');
 submit.onclick=function(){
     //make a request ot hte server and send the name
@@ -52,6 +51,8 @@ submit.onclick=function(){
   };
   
   //make the request
+  var nameInput=document.getElementById('name');
+  var name=nameInput.value;
   request.open('GET','http://dexter35.imad.hasura-app.io/submit-name?name='+name,true);
   request.send(null);
   
