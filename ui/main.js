@@ -34,7 +34,7 @@ submit.onclick=function(){
     //make a request ot hte server and send the name
     
     //capture a kist of names and render it as a list
-    var names=['name1','name2','name3'];
+    var names=['name1','name2','name3','name4'];
     var list='';
     for(var i=o;i<names.length;i++){
         list+='<li>'+names[i]+'<li>';
