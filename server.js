@@ -82,12 +82,14 @@ app.get('/ui/main.js',function(req,res){
 });
 
 var names=[];
-app.get('/submit-name/:name',function(req,res){
+app.get('/submit-name',function(req,res){
     //get names from the request
-    var name=req.params.name;
+ //if extracting from the paramaeter   var name=req.params.name;  with the req as /submit-name/:name
+ //if extracting from the query:
+ var name=req.query.name;   //without anything added in the request
     
     names.push(name);
-    ///JSON:JavaScript Object Notation bcoz we cannot send objects or string of objects as response. only bytes or files
+    //JSON:JavaScript Object Notation bcoz we cannot send objects or string of objects as response. only bytes or files
     res.send(JSON.stringify(names));
 });
 
