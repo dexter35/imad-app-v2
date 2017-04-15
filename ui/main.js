@@ -1,5 +1,6 @@
 
 var btn=document.getElementById("counter");
+var counter=0;
 btn.onclick=function(){
   //make a request
   
