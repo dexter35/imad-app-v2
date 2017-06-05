@@ -56,6 +56,6 @@ submit.onclick=function(){
   request.open('GET','http://dexter35.imad.hasura-app.io/submit-name?name='+name,true);
   request.send(null);
   
-    //capture a kist of names and render it as a list
+    //capture a list of names and render it as a list
     
 };
