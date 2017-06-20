@@ -3,7 +3,7 @@ var morgan = require('morgan');
 var path = require('path');
 var Pool=require('pg').Pool;
 
-var configuration={
+var config={
     user:'dexter35',
     database:'dexter35',
     host:'db.imad.hasura-app.io',
@@ -66,7 +66,7 @@ app.get('/', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'index.html'));
 });
 
-var pool=new Pool(configuration);
+var pool=new Pool(config);
 app.get('/test-db',function(req,res){
     //make a select request
     //return a response with the reslts
