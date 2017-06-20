@@ -12,7 +12,7 @@ var config={
 };
 
 
-var articles={
+//var articles={
     'article-one':{
         title:'Article One | Arpit Chikara',
         heading:'Article One',
