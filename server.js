@@ -8,7 +8,7 @@ var config={
     database:'dexter35',
     host:'db.imad.hasura-app.io',
     port:'5432',
-    password: process.env.DB_PASSWORD
+    password: 'db-dexter35-75506'
 };
 
 
